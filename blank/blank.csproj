@@ -66,6 +66,12 @@
     <Compile Include="commentCode.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="fmBedConf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmBedConf.Designer.cs">
+      <DependentUpon>fmBedConf.cs</DependentUpon>
+    </Compile>
     <Compile Include="fmHeight.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AdditionalForm.resx">
       <DependentUpon>AdditionalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmBedConf.resx">
+      <DependentUpon>fmBedConf.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fmHeight.resx">
       <DependentUpon>fmHeight.cs</DependentUpon>

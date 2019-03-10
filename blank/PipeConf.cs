@@ -30,9 +30,8 @@ namespace blank
         {
             foreach (var dr in dgPipeConf.Rows.Cast<DataGridViewRow>().Where(dr => (dr.Cells[0].Value != null) && dr.Cells[1].Value != null))
             {
-                int ln;
                 var hl = 0;
-                var l = int.TryParse(dr.Cells[0].Value.ToString(), out ln);
+                var l = int.TryParse(dr.Cells[0].Value.ToString(), out var ln);
                 l = l && int.TryParse(dr.Cells[1].Value.ToString(), out hl);
                 if (l)
                     _lst.Add(ln > hl ? new GeometheryElement(ln, hl) : new GeometheryElement(hl, ln));

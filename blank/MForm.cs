@@ -2183,6 +2183,8 @@ namespace blank
         private void lbBedType_Click(object sender, EventArgs e)
         {
             //ToDo add form change of bed type
+            var fm = new fmBedConf();
+            fm.Show();
         }
     }//End of MForm
 
