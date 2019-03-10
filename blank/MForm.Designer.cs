@@ -337,7 +337,7 @@ namespace blank
             "10%"});
             this.cs_Safety_Factor.Location = new System.Drawing.Point(205, 1632);
             this.cs_Safety_Factor.Name = "cs_Safety_Factor";
-            this.cs_Safety_Factor.Size = new System.Drawing.Size(167, 24);
+            this.cs_Safety_Factor.Size = new System.Drawing.Size(166, 24);
             this.cs_Safety_Factor.TabIndex = 35;
             this.cs_Safety_Factor.Leave += new System.EventHandler(this.cs_Safety_Factor_Leave);
             // 
@@ -353,7 +353,7 @@ namespace blank
             "новая"});
             this.cs_Unevenness.Location = new System.Drawing.Point(205, 1602);
             this.cs_Unevenness.Name = "cs_Unevenness";
-            this.cs_Unevenness.Size = new System.Drawing.Size(167, 24);
+            this.cs_Unevenness.Size = new System.Drawing.Size(166, 24);
             this.cs_Unevenness.TabIndex = 34;
             this.cs_Unevenness.Text = "старая";
             this.cs_Unevenness.Leave += new System.EventHandler(this.cs_Unevenness_Leave);
@@ -365,7 +365,7 @@ namespace blank
             this.cs_Dyn_Viscosity_Unit_CL.Items.AddRange(new object[] {
             "Па/с",
             "Пуаз"});
-            this.cs_Dyn_Viscosity_Unit_CL.Location = new System.Drawing.Point(318, 1553);
+            this.cs_Dyn_Viscosity_Unit_CL.Location = new System.Drawing.Point(317, 1553);
             this.cs_Dyn_Viscosity_Unit_CL.Name = "cs_Dyn_Viscosity_Unit_CL";
             this.cs_Dyn_Viscosity_Unit_CL.Size = new System.Drawing.Size(54, 24);
             this.cs_Dyn_Viscosity_Unit_CL.TabIndex = 42;
@@ -378,7 +378,7 @@ namespace blank
             this.e_Dyn_Viscosity_CL.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.e_Dyn_Viscosity_CL.Location = new System.Drawing.Point(205, 1553);
             this.e_Dyn_Viscosity_CL.Name = "e_Dyn_Viscosity_CL";
-            this.e_Dyn_Viscosity_CL.Size = new System.Drawing.Size(107, 23);
+            this.e_Dyn_Viscosity_CL.Size = new System.Drawing.Size(106, 23);
             this.e_Dyn_Viscosity_CL.TabIndex = 33;
             this.e_Dyn_Viscosity_CL.DoubleClick += new System.EventHandler(this.e_Dyn_Viscosity_CL_DoubleClick);
             this.e_Dyn_Viscosity_CL.Leave += new System.EventHandler(this.e_Dyn_Viscosity_CL_Leave);
@@ -391,7 +391,7 @@ namespace blank
             this.cs_Dyn_Viscosity_Unit_BL.Items.AddRange(new object[] {
             "Па/с",
             "Пуаз"});
-            this.cs_Dyn_Viscosity_Unit_BL.Location = new System.Drawing.Point(318, 1523);
+            this.cs_Dyn_Viscosity_Unit_BL.Location = new System.Drawing.Point(317, 1523);
             this.cs_Dyn_Viscosity_Unit_BL.Name = "cs_Dyn_Viscosity_Unit_BL";
             this.cs_Dyn_Viscosity_Unit_BL.Size = new System.Drawing.Size(54, 24);
             this.cs_Dyn_Viscosity_Unit_BL.TabIndex = 41;
@@ -404,7 +404,7 @@ namespace blank
             this.e_Dyn_Viscosity_BL.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.e_Dyn_Viscosity_BL.Location = new System.Drawing.Point(205, 1523);
             this.e_Dyn_Viscosity_BL.Name = "e_Dyn_Viscosity_BL";
-            this.e_Dyn_Viscosity_BL.Size = new System.Drawing.Size(107, 22);
+            this.e_Dyn_Viscosity_BL.Size = new System.Drawing.Size(106, 22);
             this.e_Dyn_Viscosity_BL.TabIndex = 32;
             this.e_Dyn_Viscosity_BL.DoubleClick += new System.EventHandler(this.e_Dyn_Viscosity_BL_DoubleClick);
             this.e_Dyn_Viscosity_BL.Leave += new System.EventHandler(this.e_Dyn_Viscosity_BL_Leave);
@@ -417,7 +417,7 @@ namespace blank
             this.cs_Density_Unit_BL.Items.AddRange(new object[] {
             "г/см3",
             "кг/м3"});
-            this.cs_Density_Unit_BL.Location = new System.Drawing.Point(318, 1493);
+            this.cs_Density_Unit_BL.Location = new System.Drawing.Point(317, 1493);
             this.cs_Density_Unit_BL.Name = "cs_Density_Unit_BL";
             this.cs_Density_Unit_BL.Size = new System.Drawing.Size(54, 24);
             this.cs_Density_Unit_BL.TabIndex = 40;
@@ -430,7 +430,7 @@ namespace blank
             this.e_Density_BL.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.e_Density_BL.Location = new System.Drawing.Point(205, 1493);
             this.e_Density_BL.Name = "e_Density_BL";
-            this.e_Density_BL.Size = new System.Drawing.Size(107, 23);
+            this.e_Density_BL.Size = new System.Drawing.Size(106, 23);
             this.e_Density_BL.TabIndex = 31;
             this.e_Density_BL.DoubleClick += new System.EventHandler(this.e_Density_BL_DoubleClick);
             this.e_Density_BL.Leave += new System.EventHandler(this.e_Density_BL_Leave);
@@ -443,7 +443,7 @@ namespace blank
             this.cbStratumPressureU.Items.AddRange(new object[] {
             "атм",
             "МПа"});
-            this.cbStratumPressureU.Location = new System.Drawing.Point(318, 1783);
+            this.cbStratumPressureU.Location = new System.Drawing.Point(317, 1783);
             this.cbStratumPressureU.Name = "cbStratumPressureU";
             this.cbStratumPressureU.Size = new System.Drawing.Size(54, 24);
             this.cbStratumPressureU.TabIndex = 46;
@@ -455,7 +455,7 @@ namespace blank
             this.e_Bed_Pressure.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.e_Bed_Pressure.Location = new System.Drawing.Point(205, 1783);
             this.e_Bed_Pressure.Name = "e_Bed_Pressure";
-            this.e_Bed_Pressure.Size = new System.Drawing.Size(107, 23);
+            this.e_Bed_Pressure.Size = new System.Drawing.Size(106, 23);
             this.e_Bed_Pressure.TabIndex = 16;
             this.e_Bed_Pressure.DoubleClick += new System.EventHandler(this.e_Bed_Pressure_DoubleClick);
             this.e_Bed_Pressure.Leave += new System.EventHandler(this.e_Bed_Pressure_Leave);
@@ -478,7 +478,7 @@ namespace blank
             this.tbCurrentStall.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbCurrentStall.Location = new System.Drawing.Point(205, 1128);
             this.tbCurrentStall.Name = "tbCurrentStall";
-            this.tbCurrentStall.Size = new System.Drawing.Size(107, 23);
+            this.tbCurrentStall.Size = new System.Drawing.Size(106, 23);
             this.tbCurrentStall.TabIndex = 22;
             this.tbCurrentStall.DoubleClick += new System.EventHandler(this.e_Well_Bottom_Depth_DoubleClick);
             this.tbCurrentStall.Leave += new System.EventHandler(this.e_Well_Bottom_Depth_Leave);
@@ -502,7 +502,7 @@ namespace blank
             this.e_Hole_Position_Vertical.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.e_Hole_Position_Vertical.Location = new System.Drawing.Point(205, 821);
             this.e_Hole_Position_Vertical.Name = "e_Hole_Position_Vertical";
-            this.e_Hole_Position_Vertical.Size = new System.Drawing.Size(107, 22);
+            this.e_Hole_Position_Vertical.Size = new System.Drawing.Size(106, 22);
             this.e_Hole_Position_Vertical.TabIndex = 15;
             this.e_Hole_Position_Vertical.Leave += new System.EventHandler(this.e_Hole_Position_Vertical_Leave);
             this.e_Hole_Position_Vertical.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.e_Hole_Position_Vertical_MouseDoubleClick);
@@ -535,7 +535,7 @@ namespace blank
             this.e_Hole_Position_By_Pipe.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.e_Hole_Position_By_Pipe.Location = new System.Drawing.Point(205, 789);
             this.e_Hole_Position_By_Pipe.Name = "e_Hole_Position_By_Pipe";
-            this.e_Hole_Position_By_Pipe.Size = new System.Drawing.Size(107, 22);
+            this.e_Hole_Position_By_Pipe.Size = new System.Drawing.Size(106, 22);
             this.e_Hole_Position_By_Pipe.TabIndex = 14;
             this.e_Hole_Position_By_Pipe.Leave += new System.EventHandler(this.e_Hole_Position_By_Pipe_Leave);
             this.e_Hole_Position_By_Pipe.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.e_Hole_Position_By_Pipe_MouseDoubleClick);
@@ -570,7 +570,7 @@ namespace blank
             this.e_Perforation_Distance_Vertical.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.e_Perforation_Distance_Vertical.Location = new System.Drawing.Point(205, 1013);
             this.e_Perforation_Distance_Vertical.Name = "e_Perforation_Distance_Vertical";
-            this.e_Perforation_Distance_Vertical.Size = new System.Drawing.Size(107, 22);
+            this.e_Perforation_Distance_Vertical.Size = new System.Drawing.Size(106, 22);
             this.e_Perforation_Distance_Vertical.TabIndex = 19;
             this.e_Perforation_Distance_Vertical.DoubleClick += new System.EventHandler(this.e_Perforation_Distance_Vertical_DoubleClick);
             this.e_Perforation_Distance_Vertical.Leave += new System.EventHandler(this.e_Perforation_Distance_Vertical_Leave);
@@ -581,7 +581,7 @@ namespace blank
             this.e_Perforation_Distance_By_Pipe.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.e_Perforation_Distance_By_Pipe.Location = new System.Drawing.Point(205, 981);
             this.e_Perforation_Distance_By_Pipe.Name = "e_Perforation_Distance_By_Pipe";
-            this.e_Perforation_Distance_By_Pipe.Size = new System.Drawing.Size(107, 22);
+            this.e_Perforation_Distance_By_Pipe.Size = new System.Drawing.Size(106, 22);
             this.e_Perforation_Distance_By_Pipe.TabIndex = 18;
             this.e_Perforation_Distance_By_Pipe.DoubleClick += new System.EventHandler(this.e_Perforation_Distance_By_Pipe_DoubleClick);
             this.e_Perforation_Distance_By_Pipe.Leave += new System.EventHandler(this.e_Perforation_Distance_By_Pipe_Leave);
@@ -594,7 +594,7 @@ namespace blank
             this.lbColumn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbColumn.Location = new System.Drawing.Point(3, 180);
             this.lbColumn.Name = "lbColumn";
-            this.lbColumn.Size = new System.Drawing.Size(369, 19);
+            this.lbColumn.Size = new System.Drawing.Size(368, 19);
             this.lbColumn.TabIndex = 3;
             this.lbColumn.Text = "Эксплуатационн колонна:";
             this.lbColumn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -627,7 +627,7 @@ namespace blank
             "D=245 мм, S=11.1 мм"});
             this.cs_Column_Geometry.Location = new System.Drawing.Point(205, 202);
             this.cs_Column_Geometry.Name = "cs_Column_Geometry";
-            this.cs_Column_Geometry.Size = new System.Drawing.Size(167, 24);
+            this.cs_Column_Geometry.Size = new System.Drawing.Size(166, 24);
             this.cs_Column_Geometry.TabIndex = 3;
             this.cs_Column_Geometry.Text = "D=140 мм, S=7.8 мм";
             this.cs_Column_Geometry.Leave += new System.EventHandler(this.cs_Column_Geometry_Leave);
@@ -654,7 +654,7 @@ namespace blank
             "d=114 мм, s=7.0 мм"});
             this.cs_Pipe_Geometry.Location = new System.Drawing.Point(205, 632);
             this.cs_Pipe_Geometry.Name = "cs_Pipe_Geometry";
-            this.cs_Pipe_Geometry.Size = new System.Drawing.Size(167, 24);
+            this.cs_Pipe_Geometry.Size = new System.Drawing.Size(166, 24);
             this.cs_Pipe_Geometry.TabIndex = 13;
             this.cs_Pipe_Geometry.Text = "d=48 мм, s=4.0 мм";
             this.cs_Pipe_Geometry.Leave += new System.EventHandler(this.cs_Pipe_Geometry_Leave);
@@ -690,7 +690,7 @@ namespace blank
             this.e_Cluster_Name.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e_Cluster_Name.Location = new System.Drawing.Point(205, 59);
             this.e_Cluster_Name.Name = "e_Cluster_Name";
-            this.e_Cluster_Name.Size = new System.Drawing.Size(167, 22);
+            this.e_Cluster_Name.Size = new System.Drawing.Size(166, 22);
             this.e_Cluster_Name.TabIndex = 2;
             // 
             // e_Well_Number
@@ -700,7 +700,7 @@ namespace blank
             this.e_Well_Number.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e_Well_Number.Location = new System.Drawing.Point(205, 31);
             this.e_Well_Number.Name = "e_Well_Number";
-            this.e_Well_Number.Size = new System.Drawing.Size(167, 22);
+            this.e_Well_Number.Size = new System.Drawing.Size(166, 22);
             this.e_Well_Number.TabIndex = 1;
             // 
             // lbLocate
@@ -722,7 +722,7 @@ namespace blank
             this.e_OilField_name.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.e_OilField_name.Location = new System.Drawing.Point(205, 3);
             this.e_OilField_name.Name = "e_OilField_name";
-            this.e_OilField_name.Size = new System.Drawing.Size(167, 22);
+            this.e_OilField_name.Size = new System.Drawing.Size(166, 22);
             this.e_OilField_name.TabIndex = 0;
             // 
             // tcCntrl
@@ -775,7 +775,7 @@ namespace blank
             this.tlIncomingData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tlIncomingData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65.08514F));
             this.tlIncomingData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.91486F));
-            this.tlIncomingData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.tlIncomingData.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 39F));
             this.tlIncomingData.Controls.Add(this.lbLocate, 0, 0);
             this.tlIncomingData.Controls.Add(this.e_OilField_name, 1, 0);
             this.tlIncomingData.Controls.Add(this.lbHole, 0, 1);
@@ -1022,7 +1022,7 @@ namespace blank
             this.tbColumnLenght.Dock = System.Windows.Forms.DockStyle.Top;
             this.tbColumnLenght.Location = new System.Drawing.Point(205, 232);
             this.tbColumnLenght.Name = "tbColumnLenght";
-            this.tbColumnLenght.Size = new System.Drawing.Size(107, 26);
+            this.tbColumnLenght.Size = new System.Drawing.Size(106, 26);
             this.tbColumnLenght.TabIndex = 4;
             this.tbColumnLenght.Leave += new System.EventHandler(this.tbColumnLenght_Leave);
             // 
@@ -1035,7 +1035,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbColumnLenghtU.Location = new System.Drawing.Point(318, 232);
+            this.cbColumnLenghtU.Location = new System.Drawing.Point(317, 232);
             this.cbColumnLenghtU.Name = "cbColumnLenghtU";
             this.cbColumnLenghtU.Size = new System.Drawing.Size(54, 26);
             this.cbColumnLenghtU.TabIndex = 38;
@@ -1058,7 +1058,7 @@ namespace blank
             this.tbColumnHeight.Dock = System.Windows.Forms.DockStyle.Top;
             this.tbColumnHeight.Location = new System.Drawing.Point(205, 264);
             this.tbColumnHeight.Name = "tbColumnHeight";
-            this.tbColumnHeight.Size = new System.Drawing.Size(107, 26);
+            this.tbColumnHeight.Size = new System.Drawing.Size(106, 26);
             this.tbColumnHeight.TabIndex = 5;
             this.tbColumnHeight.Leave += new System.EventHandler(this.tbColumnHeight_Leave);
             // 
@@ -1071,7 +1071,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbColumnHeightU.Location = new System.Drawing.Point(318, 264);
+            this.cbColumnHeightU.Location = new System.Drawing.Point(317, 264);
             this.cbColumnHeightU.Name = "cbColumnHeightU";
             this.cbColumnHeightU.Size = new System.Drawing.Size(54, 26);
             this.cbColumnHeightU.TabIndex = 39;
@@ -1091,7 +1091,7 @@ namespace blank
             this.tbAdaptorLenght.Dock = System.Windows.Forms.DockStyle.Top;
             this.tbAdaptorLenght.Location = new System.Drawing.Point(205, 296);
             this.tbAdaptorLenght.Name = "tbAdaptorLenght";
-            this.tbAdaptorLenght.Size = new System.Drawing.Size(107, 26);
+            this.tbAdaptorLenght.Size = new System.Drawing.Size(106, 26);
             this.tbAdaptorLenght.TabIndex = 0;
             this.tbAdaptorLenght.Leave += new System.EventHandler(this.tbAdaptorLenght_Leave);
             // 
@@ -1103,7 +1103,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbAdaptorLenght.Location = new System.Drawing.Point(318, 296);
+            this.cbAdaptorLenght.Location = new System.Drawing.Point(317, 296);
             this.cbAdaptorLenght.Name = "cbAdaptorLenght";
             this.cbAdaptorLenght.Size = new System.Drawing.Size(54, 26);
             this.cbAdaptorLenght.TabIndex = 0;
@@ -1116,7 +1116,7 @@ namespace blank
             this.lbColumnTail.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbColumnTail.Location = new System.Drawing.Point(3, 333);
             this.lbColumnTail.Name = "lbColumnTail";
-            this.lbColumnTail.Size = new System.Drawing.Size(369, 19);
+            this.lbColumnTail.Size = new System.Drawing.Size(368, 19);
             this.lbColumnTail.TabIndex = 13;
             this.lbColumnTail.Text = "\"Хвостовик эксплуатационной коонны\":";
             this.lbColumnTail.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1161,7 +1161,7 @@ namespace blank
             "D=245 мм, S=11.1 мм"});
             this.cbColumnTail.Location = new System.Drawing.Point(205, 355);
             this.cbColumnTail.Name = "cbColumnTail";
-            this.cbColumnTail.Size = new System.Drawing.Size(167, 24);
+            this.cbColumnTail.Size = new System.Drawing.Size(166, 24);
             this.cbColumnTail.TabIndex = 6;
             this.cbColumnTail.Text = "D=140 мм, S=7.8 мм";
             // 
@@ -1183,7 +1183,7 @@ namespace blank
             this.tbColumnTailLenght.Dock = System.Windows.Forms.DockStyle.Top;
             this.tbColumnTailLenght.Location = new System.Drawing.Point(205, 385);
             this.tbColumnTailLenght.Name = "tbColumnTailLenght";
-            this.tbColumnTailLenght.Size = new System.Drawing.Size(107, 26);
+            this.tbColumnTailLenght.Size = new System.Drawing.Size(106, 26);
             this.tbColumnTailLenght.TabIndex = 7;
             this.tbColumnTailLenght.Leave += new System.EventHandler(this.tbColumnTailLenght_Leave);
             // 
@@ -1196,7 +1196,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbColumnTailLenghtU.Location = new System.Drawing.Point(318, 385);
+            this.cbColumnTailLenghtU.Location = new System.Drawing.Point(317, 385);
             this.cbColumnTailLenghtU.Name = "cbColumnTailLenghtU";
             this.cbColumnTailLenghtU.Size = new System.Drawing.Size(54, 26);
             this.cbColumnTailLenghtU.TabIndex = 40;
@@ -1218,7 +1218,7 @@ namespace blank
             this.tbColumnTailHeight.Dock = System.Windows.Forms.DockStyle.Top;
             this.tbColumnTailHeight.Location = new System.Drawing.Point(205, 417);
             this.tbColumnTailHeight.Name = "tbColumnTailHeight";
-            this.tbColumnTailHeight.Size = new System.Drawing.Size(107, 26);
+            this.tbColumnTailHeight.Size = new System.Drawing.Size(106, 26);
             this.tbColumnTailHeight.TabIndex = 8;
             this.tbColumnTailHeight.Leave += new System.EventHandler(this.tbColumnTailHeight_Leave);
             // 
@@ -1231,7 +1231,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbColumnTailHeightU.Location = new System.Drawing.Point(318, 417);
+            this.cbColumnTailHeightU.Location = new System.Drawing.Point(317, 417);
             this.cbColumnTailHeightU.Name = "cbColumnTailHeightU";
             this.cbColumnTailHeightU.Size = new System.Drawing.Size(54, 26);
             this.cbColumnTailHeightU.TabIndex = 41;
@@ -1244,7 +1244,7 @@ namespace blank
             this.lbEuipmentType.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbEuipmentType.Location = new System.Drawing.Point(3, 446);
             this.lbEuipmentType.Name = "lbEuipmentType";
-            this.lbEuipmentType.Size = new System.Drawing.Size(369, 19);
+            this.lbEuipmentType.Size = new System.Drawing.Size(368, 19);
             this.lbEuipmentType.TabIndex = 22;
             this.lbEuipmentType.Text = "Тип оборудования:";
             this.lbEuipmentType.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1272,7 +1272,7 @@ namespace blank
             "Пакер распакирован"});
             this.cbEquipmentType.Location = new System.Drawing.Point(205, 468);
             this.cbEquipmentType.Name = "cbEquipmentType";
-            this.cbEquipmentType.Size = new System.Drawing.Size(167, 26);
+            this.cbEquipmentType.Size = new System.Drawing.Size(166, 26);
             this.cbEquipmentType.TabIndex = 9;
             this.cbEquipmentType.SelectedIndexChanged += new System.EventHandler(this.cbEquipmentType_SelectedIndexChanged);
             // 
@@ -1284,7 +1284,7 @@ namespace blank
             this.lbLowerHanger.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbLowerHanger.Location = new System.Drawing.Point(3, 497);
             this.lbLowerHanger.Name = "lbLowerHanger";
-            this.lbLowerHanger.Size = new System.Drawing.Size(369, 19);
+            this.lbLowerHanger.Size = new System.Drawing.Size(368, 19);
             this.lbLowerHanger.TabIndex = 25;
             this.lbLowerHanger.Text = "Нижняя подвеска НКТ:";
             this.lbLowerHanger.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1323,7 +1323,7 @@ namespace blank
             "d=114 мм, s=7.0 мм"});
             this.cbLowerHanger.Location = new System.Drawing.Point(205, 519);
             this.cbLowerHanger.Name = "cbLowerHanger";
-            this.cbLowerHanger.Size = new System.Drawing.Size(167, 24);
+            this.cbLowerHanger.Size = new System.Drawing.Size(166, 24);
             this.cbLowerHanger.TabIndex = 10;
             this.cbLowerHanger.Text = "d=48 мм, s=4.0 мм";
             // 
@@ -1346,7 +1346,7 @@ namespace blank
             this.tbLowerHangerLenght.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbLowerHangerLenght.Location = new System.Drawing.Point(205, 549);
             this.tbLowerHangerLenght.Name = "tbLowerHangerLenght";
-            this.tbLowerHangerLenght.Size = new System.Drawing.Size(107, 22);
+            this.tbLowerHangerLenght.Size = new System.Drawing.Size(106, 22);
             this.tbLowerHangerLenght.TabIndex = 11;
             this.tbLowerHangerLenght.Leave += new System.EventHandler(this.tbLowerHangerLenght_Leave);
             // 
@@ -1359,7 +1359,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbLowerHangerLenghtU.Location = new System.Drawing.Point(318, 549);
+            this.cbLowerHangerLenghtU.Location = new System.Drawing.Point(317, 549);
             this.cbLowerHangerLenghtU.Name = "cbLowerHangerLenghtU";
             this.cbLowerHangerLenghtU.Size = new System.Drawing.Size(54, 26);
             this.cbLowerHangerLenghtU.TabIndex = 42;
@@ -1382,7 +1382,7 @@ namespace blank
             this.tbLowerHangerHeight.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbLowerHangerHeight.Location = new System.Drawing.Point(205, 581);
             this.tbLowerHangerHeight.Name = "tbLowerHangerHeight";
-            this.tbLowerHangerHeight.Size = new System.Drawing.Size(107, 22);
+            this.tbLowerHangerHeight.Size = new System.Drawing.Size(106, 22);
             this.tbLowerHangerHeight.TabIndex = 12;
             this.tbLowerHangerHeight.Leave += new System.EventHandler(this.tbLowerHangerHeight_Leave);
             // 
@@ -1395,7 +1395,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbLowerHangerHeightU.Location = new System.Drawing.Point(318, 581);
+            this.cbLowerHangerHeightU.Location = new System.Drawing.Point(317, 581);
             this.cbLowerHangerHeightU.Name = "cbLowerHangerHeightU";
             this.cbLowerHangerHeightU.Size = new System.Drawing.Size(54, 26);
             this.cbLowerHangerHeightU.TabIndex = 43;
@@ -1408,7 +1408,7 @@ namespace blank
             this.lbUpperHanger.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbUpperHanger.Location = new System.Drawing.Point(3, 610);
             this.lbUpperHanger.Name = "lbUpperHanger";
-            this.lbUpperHanger.Size = new System.Drawing.Size(369, 19);
+            this.lbUpperHanger.Size = new System.Drawing.Size(368, 19);
             this.lbUpperHanger.TabIndex = 33;
             this.lbUpperHanger.Text = "Верхняя подвеска НКТ:";
             this.lbUpperHanger.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1441,7 +1441,7 @@ namespace blank
             this.tbUpperHangerLenght.Dock = System.Windows.Forms.DockStyle.Top;
             this.tbUpperHangerLenght.Location = new System.Drawing.Point(205, 662);
             this.tbUpperHangerLenght.Name = "tbUpperHangerLenght";
-            this.tbUpperHangerLenght.Size = new System.Drawing.Size(107, 26);
+            this.tbUpperHangerLenght.Size = new System.Drawing.Size(106, 26);
             this.tbUpperHangerLenght.TabIndex = 45;
             this.tbUpperHangerLenght.Leave += new System.EventHandler(this.tbUpperHangerLenght_Leave);
             // 
@@ -1453,7 +1453,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbUpperHangerLenghtU.Location = new System.Drawing.Point(318, 662);
+            this.cbUpperHangerLenghtU.Location = new System.Drawing.Point(317, 662);
             this.cbUpperHangerLenghtU.Name = "cbUpperHangerLenghtU";
             this.cbUpperHangerLenghtU.Size = new System.Drawing.Size(54, 26);
             this.cbUpperHangerLenghtU.TabIndex = 46;
@@ -1474,7 +1474,7 @@ namespace blank
             this.tbUpperHangerHeight.Dock = System.Windows.Forms.DockStyle.Top;
             this.tbUpperHangerHeight.Location = new System.Drawing.Point(205, 702);
             this.tbUpperHangerHeight.Name = "tbUpperHangerHeight";
-            this.tbUpperHangerHeight.Size = new System.Drawing.Size(107, 26);
+            this.tbUpperHangerHeight.Size = new System.Drawing.Size(106, 26);
             this.tbUpperHangerHeight.TabIndex = 48;
             this.tbUpperHangerHeight.DoubleClick += new System.EventHandler(this.tbUpperHangerHeight_TextChanged);
             this.tbUpperHangerHeight.Leave += new System.EventHandler(this.tbUpperHangerHeight_Leave);
@@ -1486,7 +1486,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbUpperHangerHeightU.Location = new System.Drawing.Point(318, 702);
+            this.cbUpperHangerHeightU.Location = new System.Drawing.Point(317, 702);
             this.cbUpperHangerHeightU.Name = "cbUpperHangerHeightU";
             this.cbUpperHangerHeightU.Size = new System.Drawing.Size(54, 26);
             this.cbUpperHangerHeightU.TabIndex = 49;
@@ -1499,7 +1499,7 @@ namespace blank
             this.lbCirculationHole.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbCirculationHole.Location = new System.Drawing.Point(3, 739);
             this.lbCirculationHole.Name = "lbCirculationHole";
-            this.lbCirculationHole.Size = new System.Drawing.Size(369, 19);
+            this.lbCirculationHole.Size = new System.Drawing.Size(368, 19);
             this.lbCirculationHole.TabIndex = 92;
             this.lbCirculationHole.Text = "Циркуляционное отверстие:";
             this.lbCirculationHole.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1525,7 +1525,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbCirculationLenghtU.Location = new System.Drawing.Point(318, 789);
+            this.cbCirculationLenghtU.Location = new System.Drawing.Point(317, 789);
             this.cbCirculationLenghtU.Name = "cbCirculationLenghtU";
             this.cbCirculationLenghtU.Size = new System.Drawing.Size(54, 26);
             this.cbCirculationLenghtU.TabIndex = 44;
@@ -1550,7 +1550,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbCirculationHeightU.Location = new System.Drawing.Point(318, 821);
+            this.cbCirculationHeightU.Location = new System.Drawing.Point(317, 821);
             this.cbCirculationHeightU.Name = "cbCirculationHeightU";
             this.cbCirculationHeightU.Size = new System.Drawing.Size(54, 26);
             this.cbCirculationHeightU.TabIndex = 45;
@@ -1563,7 +1563,7 @@ namespace blank
             this.lbPressure.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbPressure.Location = new System.Drawing.Point(3, 850);
             this.lbPressure.Name = "lbPressure";
-            this.lbPressure.Size = new System.Drawing.Size(369, 19);
+            this.lbPressure.Size = new System.Drawing.Size(368, 19);
             this.lbPressure.TabIndex = 42;
             this.lbPressure.Text = "Давление:";
             this.lbPressure.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1586,7 +1586,7 @@ namespace blank
             this.tbOrifice.Font = new System.Drawing.Font("Arial Narrow", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbOrifice.Location = new System.Drawing.Point(205, 872);
             this.tbOrifice.Name = "tbOrifice";
-            this.tbOrifice.Size = new System.Drawing.Size(107, 23);
+            this.tbOrifice.Size = new System.Drawing.Size(106, 23);
             this.tbOrifice.TabIndex = 17;
             this.tbOrifice.Leave += new System.EventHandler(this.tbOrifice_Leave);
             // 
@@ -1598,7 +1598,7 @@ namespace blank
             this.cbOrificeU.Items.AddRange(new object[] {
             "атм",
             "МПа"});
-            this.cbOrificeU.Location = new System.Drawing.Point(318, 872);
+            this.cbOrificeU.Location = new System.Drawing.Point(317, 872);
             this.cbOrificeU.Name = "cbOrificeU";
             this.cbOrificeU.Size = new System.Drawing.Size(54, 24);
             this.cbOrificeU.TabIndex = 47;
@@ -1621,7 +1621,7 @@ namespace blank
             this.tbNktPressure.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbNktPressure.Location = new System.Drawing.Point(205, 902);
             this.tbNktPressure.Name = "tbNktPressure";
-            this.tbNktPressure.Size = new System.Drawing.Size(107, 23);
+            this.tbNktPressure.Size = new System.Drawing.Size(106, 23);
             this.tbNktPressure.TabIndex = 29;
             this.tbNktPressure.Leave += new System.EventHandler(this.tbNktPressure_Leave);
             // 
@@ -1633,7 +1633,7 @@ namespace blank
             this.cbNktPressureU.Items.AddRange(new object[] {
             "атм",
             "МПа"});
-            this.cbNktPressureU.Location = new System.Drawing.Point(318, 902);
+            this.cbNktPressureU.Location = new System.Drawing.Point(317, 902);
             this.cbNktPressureU.Name = "cbNktPressureU";
             this.cbNktPressureU.Size = new System.Drawing.Size(54, 24);
             this.cbNktPressureU.TabIndex = 38;
@@ -1656,7 +1656,7 @@ namespace blank
             this.tbSaturationPressure.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbSaturationPressure.Location = new System.Drawing.Point(205, 932);
             this.tbSaturationPressure.Name = "tbSaturationPressure";
-            this.tbSaturationPressure.Size = new System.Drawing.Size(107, 23);
+            this.tbSaturationPressure.Size = new System.Drawing.Size(106, 23);
             this.tbSaturationPressure.TabIndex = 96;
             this.tbSaturationPressure.Leave += new System.EventHandler(this.tbSaturationPressure_Leave);
             // 
@@ -1668,7 +1668,7 @@ namespace blank
             this.cbSaturationPressure.Items.AddRange(new object[] {
             "атм",
             "МПа"});
-            this.cbSaturationPressure.Location = new System.Drawing.Point(318, 932);
+            this.cbSaturationPressure.Location = new System.Drawing.Point(317, 932);
             this.cbSaturationPressure.Name = "cbSaturationPressure";
             this.cbSaturationPressure.Size = new System.Drawing.Size(54, 24);
             this.cbSaturationPressure.TabIndex = 97;
@@ -1682,7 +1682,7 @@ namespace blank
             this.lbPerforationInterval.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbPerforationInterval.Location = new System.Drawing.Point(3, 959);
             this.lbPerforationInterval.Name = "lbPerforationInterval";
-            this.lbPerforationInterval.Size = new System.Drawing.Size(369, 19);
+            this.lbPerforationInterval.Size = new System.Drawing.Size(368, 19);
             this.lbPerforationInterval.TabIndex = 46;
             this.lbPerforationInterval.Text = "Интервал перфорации:";
             this.lbPerforationInterval.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1696,7 +1696,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbUpPerforationLenghtU.Location = new System.Drawing.Point(318, 981);
+            this.cbUpPerforationLenghtU.Location = new System.Drawing.Point(317, 981);
             this.cbUpPerforationLenghtU.Name = "cbUpPerforationLenghtU";
             this.cbUpPerforationLenghtU.Size = new System.Drawing.Size(54, 26);
             this.cbUpPerforationLenghtU.TabIndex = 48;
@@ -1710,7 +1710,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbUpPerforationHeightU.Location = new System.Drawing.Point(318, 1013);
+            this.cbUpPerforationHeightU.Location = new System.Drawing.Point(317, 1013);
             this.cbUpPerforationHeightU.Name = "cbUpPerforationHeightU";
             this.cbUpPerforationHeightU.Size = new System.Drawing.Size(54, 26);
             this.cbUpPerforationHeightU.TabIndex = 49;
@@ -1733,7 +1733,7 @@ namespace blank
             this.tbBottomPerforationLenght.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbBottomPerforationLenght.Location = new System.Drawing.Point(205, 1045);
             this.tbBottomPerforationLenght.Name = "tbBottomPerforationLenght";
-            this.tbBottomPerforationLenght.Size = new System.Drawing.Size(107, 22);
+            this.tbBottomPerforationLenght.Size = new System.Drawing.Size(106, 22);
             this.tbBottomPerforationLenght.TabIndex = 20;
             this.tbBottomPerforationLenght.Leave += new System.EventHandler(this.tbBottomPerforationLenght_Leave);
             // 
@@ -1746,7 +1746,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbBottomPerforationLenghtU.Location = new System.Drawing.Point(318, 1045);
+            this.cbBottomPerforationLenghtU.Location = new System.Drawing.Point(317, 1045);
             this.cbBottomPerforationLenghtU.Name = "cbBottomPerforationLenghtU";
             this.cbBottomPerforationLenghtU.Size = new System.Drawing.Size(54, 26);
             this.cbBottomPerforationLenghtU.TabIndex = 50;
@@ -1769,7 +1769,7 @@ namespace blank
             this.tbBottomPerforationHeight.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbBottomPerforationHeight.Location = new System.Drawing.Point(205, 1077);
             this.tbBottomPerforationHeight.Name = "tbBottomPerforationHeight";
-            this.tbBottomPerforationHeight.Size = new System.Drawing.Size(107, 22);
+            this.tbBottomPerforationHeight.Size = new System.Drawing.Size(106, 22);
             this.tbBottomPerforationHeight.TabIndex = 21;
             this.tbBottomPerforationHeight.Leave += new System.EventHandler(this.tbBottomPerforationHeight_Leave);
             // 
@@ -1782,7 +1782,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbBottomPerforationHeightU.Location = new System.Drawing.Point(318, 1077);
+            this.cbBottomPerforationHeightU.Location = new System.Drawing.Point(317, 1077);
             this.cbBottomPerforationHeightU.Name = "cbBottomPerforationHeightU";
             this.cbBottomPerforationHeightU.Size = new System.Drawing.Size(54, 26);
             this.cbBottomPerforationHeightU.TabIndex = 51;
@@ -1795,7 +1795,7 @@ namespace blank
             this.lbStall.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbStall.Location = new System.Drawing.Point(3, 1106);
             this.lbStall.Name = "lbStall";
-            this.lbStall.Size = new System.Drawing.Size(369, 19);
+            this.lbStall.Size = new System.Drawing.Size(368, 19);
             this.lbStall.TabIndex = 55;
             this.lbStall.Text = "Забой:";
             this.lbStall.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1809,7 +1809,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbCurrentStallU.Location = new System.Drawing.Point(318, 1128);
+            this.cbCurrentStallU.Location = new System.Drawing.Point(317, 1128);
             this.cbCurrentStallU.Name = "cbCurrentStallU";
             this.cbCurrentStallU.Size = new System.Drawing.Size(54, 26);
             this.cbCurrentStallU.TabIndex = 52;
@@ -1832,7 +1832,7 @@ namespace blank
             this.tbFactitiousStall.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbFactitiousStall.Location = new System.Drawing.Point(205, 1160);
             this.tbFactitiousStall.Name = "tbFactitiousStall";
-            this.tbFactitiousStall.Size = new System.Drawing.Size(107, 23);
+            this.tbFactitiousStall.Size = new System.Drawing.Size(106, 23);
             this.tbFactitiousStall.TabIndex = 23;
             this.tbFactitiousStall.Leave += new System.EventHandler(this.tbFactitiousStall_Leave);
             // 
@@ -1845,7 +1845,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbFactitiousStallU.Location = new System.Drawing.Point(318, 1160);
+            this.cbFactitiousStallU.Location = new System.Drawing.Point(317, 1160);
             this.cbFactitiousStallU.Name = "cbFactitiousStallU";
             this.cbFactitiousStallU.Size = new System.Drawing.Size(54, 26);
             this.cbFactitiousStallU.TabIndex = 53;
@@ -1858,7 +1858,7 @@ namespace blank
             this.lbDensity.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbDensity.Location = new System.Drawing.Point(3, 1189);
             this.lbDensity.Name = "lbDensity";
-            this.lbDensity.Size = new System.Drawing.Size(369, 19);
+            this.lbDensity.Size = new System.Drawing.Size(368, 19);
             this.lbDensity.TabIndex = 60;
             this.lbDensity.Text = "Плотности:";
             this.lbDensity.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1881,7 +1881,7 @@ namespace blank
             this.tbOnAssayDensity.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbOnAssayDensity.Location = new System.Drawing.Point(205, 1211);
             this.tbOnAssayDensity.Name = "tbOnAssayDensity";
-            this.tbOnAssayDensity.Size = new System.Drawing.Size(107, 23);
+            this.tbOnAssayDensity.Size = new System.Drawing.Size(106, 23);
             this.tbOnAssayDensity.TabIndex = 24;
             this.tbOnAssayDensity.Leave += new System.EventHandler(this.tbOnAssayDensity_Leave);
             // 
@@ -1893,7 +1893,7 @@ namespace blank
             this.cbOnAssayDensityU.Items.AddRange(new object[] {
             "г/см3",
             "кг/м3"});
-            this.cbOnAssayDensityU.Location = new System.Drawing.Point(318, 1211);
+            this.cbOnAssayDensityU.Location = new System.Drawing.Point(317, 1211);
             this.cbOnAssayDensityU.Name = "cbOnAssayDensityU";
             this.cbOnAssayDensityU.Size = new System.Drawing.Size(54, 24);
             this.cbOnAssayDensityU.TabIndex = 54;
@@ -1917,7 +1917,7 @@ namespace blank
             this.tbUsedDensity.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbUsedDensity.Location = new System.Drawing.Point(205, 1241);
             this.tbUsedDensity.Name = "tbUsedDensity";
-            this.tbUsedDensity.Size = new System.Drawing.Size(107, 23);
+            this.tbUsedDensity.Size = new System.Drawing.Size(106, 23);
             this.tbUsedDensity.TabIndex = 25;
             this.tbUsedDensity.Leave += new System.EventHandler(this.tbUsedDensity_Leave);
             // 
@@ -1929,7 +1929,7 @@ namespace blank
             this.cbUsedDensityU.Items.AddRange(new object[] {
             "г/см3",
             "кг/м3"});
-            this.cbUsedDensityU.Location = new System.Drawing.Point(318, 1241);
+            this.cbUsedDensityU.Location = new System.Drawing.Point(317, 1241);
             this.cbUsedDensityU.Name = "cbUsedDensityU";
             this.cbUsedDensityU.Size = new System.Drawing.Size(54, 24);
             this.cbUsedDensityU.TabIndex = 55;
@@ -1943,7 +1943,7 @@ namespace blank
             this.lbPumpData.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbPumpData.Location = new System.Drawing.Point(3, 1268);
             this.lbPumpData.Name = "lbPumpData";
-            this.lbPumpData.Size = new System.Drawing.Size(369, 19);
+            this.lbPumpData.Size = new System.Drawing.Size(368, 19);
             this.lbPumpData.TabIndex = 67;
             this.lbPumpData.Text = "Данные насоса:";
             this.lbPumpData.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1966,7 +1966,7 @@ namespace blank
             this.cbDoubleStep.FormattingEnabled = true;
             this.cbDoubleStep.Location = new System.Drawing.Point(205, 1290);
             this.cbDoubleStep.Name = "cbDoubleStep";
-            this.cbDoubleStep.Size = new System.Drawing.Size(167, 26);
+            this.cbDoubleStep.Size = new System.Drawing.Size(166, 26);
             this.cbDoubleStep.TabIndex = 99;
             this.cbDoubleStep.SelectedIndexChanged += new System.EventHandler(this.cbDoubleStep_SelectedIndexChanged);
             // 
@@ -1992,7 +1992,7 @@ namespace blank
             "127"});
             this.cbPistonDiam.Location = new System.Drawing.Point(205, 1322);
             this.cbPistonDiam.Name = "cbPistonDiam";
-            this.cbPistonDiam.Size = new System.Drawing.Size(167, 26);
+            this.cbPistonDiam.Size = new System.Drawing.Size(166, 26);
             this.cbPistonDiam.TabIndex = 100;
             // 
             // lbLevelingSpeed
@@ -2013,7 +2013,7 @@ namespace blank
             this.tbLevelingSpeed.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbLevelingSpeed.Location = new System.Drawing.Point(205, 1354);
             this.tbLevelingSpeed.Name = "tbLevelingSpeed";
-            this.tbLevelingSpeed.Size = new System.Drawing.Size(107, 23);
+            this.tbLevelingSpeed.Size = new System.Drawing.Size(106, 23);
             this.tbLevelingSpeed.TabIndex = 26;
             // 
             // cbLevelingSpeedU
@@ -2025,7 +2025,7 @@ namespace blank
             "ход/мин",
             "ход/с",
             "ход/час"});
-            this.cbLevelingSpeedU.Location = new System.Drawing.Point(318, 1354);
+            this.cbLevelingSpeedU.Location = new System.Drawing.Point(317, 1354);
             this.cbLevelingSpeedU.Name = "cbLevelingSpeedU";
             this.cbLevelingSpeedU.Size = new System.Drawing.Size(54, 24);
             this.cbLevelingSpeedU.TabIndex = 35;
@@ -2049,7 +2049,7 @@ namespace blank
             this.tbPumpSupply.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbPumpSupply.Location = new System.Drawing.Point(205, 1384);
             this.tbPumpSupply.Name = "tbPumpSupply";
-            this.tbPumpSupply.Size = new System.Drawing.Size(107, 23);
+            this.tbPumpSupply.Size = new System.Drawing.Size(106, 23);
             this.tbPumpSupply.TabIndex = 27;
             // 
             // cbPumpSupplyU
@@ -2060,7 +2060,7 @@ namespace blank
             this.cbPumpSupplyU.Items.AddRange(new object[] {
             "л/ход",
             "м3/ход"});
-            this.cbPumpSupplyU.Location = new System.Drawing.Point(318, 1384);
+            this.cbPumpSupplyU.Location = new System.Drawing.Point(317, 1384);
             this.cbPumpSupplyU.Name = "cbPumpSupplyU";
             this.cbPumpSupplyU.Size = new System.Drawing.Size(54, 24);
             this.cbPumpSupplyU.TabIndex = 36;
@@ -2084,7 +2084,7 @@ namespace blank
             this.tbPumpPressure.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbPumpPressure.Location = new System.Drawing.Point(205, 1414);
             this.tbPumpPressure.Name = "tbPumpPressure";
-            this.tbPumpPressure.Size = new System.Drawing.Size(107, 23);
+            this.tbPumpPressure.Size = new System.Drawing.Size(106, 23);
             this.tbPumpPressure.TabIndex = 28;
             this.tbPumpPressure.Leave += new System.EventHandler(this.tbPumpPressure_Leave);
             // 
@@ -2096,7 +2096,7 @@ namespace blank
             this.cbPumpPressureU.Items.AddRange(new object[] {
             "атм",
             "МПа"});
-            this.cbPumpPressureU.Location = new System.Drawing.Point(318, 1414);
+            this.cbPumpPressureU.Location = new System.Drawing.Point(317, 1414);
             this.cbPumpPressureU.Name = "cbPumpPressureU";
             this.cbPumpPressureU.Size = new System.Drawing.Size(54, 24);
             this.cbPumpPressureU.TabIndex = 37;
@@ -2110,7 +2110,7 @@ namespace blank
             this.lbFluidParams.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbFluidParams.Location = new System.Drawing.Point(3, 1441);
             this.lbFluidParams.Name = "lbFluidParams";
-            this.lbFluidParams.Size = new System.Drawing.Size(369, 19);
+            this.lbFluidParams.Size = new System.Drawing.Size(368, 19);
             this.lbFluidParams.TabIndex = 84;
             this.lbFluidParams.Text = "Параметры жидкостей:";
             this.lbFluidParams.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2133,7 +2133,7 @@ namespace blank
             this.tbAnnulusPressure.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbAnnulusPressure.Location = new System.Drawing.Point(205, 1463);
             this.tbAnnulusPressure.Name = "tbAnnulusPressure";
-            this.tbAnnulusPressure.Size = new System.Drawing.Size(107, 23);
+            this.tbAnnulusPressure.Size = new System.Drawing.Size(106, 23);
             this.tbAnnulusPressure.TabIndex = 30;
             this.tbAnnulusPressure.Leave += new System.EventHandler(this.tbAnnulusPressure_Leave);
             // 
@@ -2145,7 +2145,7 @@ namespace blank
             this.cbAnnulusPressureU.Items.AddRange(new object[] {
             "атм",
             "МПа"});
-            this.cbAnnulusPressureU.Location = new System.Drawing.Point(318, 1463);
+            this.cbAnnulusPressureU.Location = new System.Drawing.Point(317, 1463);
             this.cbAnnulusPressureU.Name = "cbAnnulusPressureU";
             this.cbAnnulusPressureU.Size = new System.Drawing.Size(54, 24);
             this.cbAnnulusPressureU.TabIndex = 39;
@@ -2195,7 +2195,7 @@ namespace blank
             this.lbWellData.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbWellData.Location = new System.Drawing.Point(3, 1580);
             this.lbWellData.Name = "lbWellData";
-            this.lbWellData.Size = new System.Drawing.Size(369, 19);
+            this.lbWellData.Size = new System.Drawing.Size(368, 19);
             this.lbWellData.TabIndex = 88;
             this.lbWellData.Text = "Данные скважины:";
             this.lbWellData.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2232,7 +2232,7 @@ namespace blank
             this.lbBedParams.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbBedParams.Location = new System.Drawing.Point(3, 1659);
             this.lbBedParams.Name = "lbBedParams";
-            this.lbBedParams.Size = new System.Drawing.Size(369, 19);
+            this.lbBedParams.Size = new System.Drawing.Size(368, 19);
             this.lbBedParams.TabIndex = 91;
             this.lbBedParams.Text = "Параметры пласта:";
             this.lbBedParams.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2248,6 +2248,7 @@ namespace blank
             this.lbBedType.TabIndex = 15;
             this.lbBedType.Text = "Тип пласта";
             this.lbBedType.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbBedType.Click += new System.EventHandler(this.lbBedType_Click);
             // 
             // cs_Bed_Type
             // 
@@ -2270,7 +2271,7 @@ namespace blank
             "Правдинское БС9"});
             this.cs_Bed_Type.Location = new System.Drawing.Point(205, 1681);
             this.cs_Bed_Type.Name = "cs_Bed_Type";
-            this.cs_Bed_Type.Size = new System.Drawing.Size(167, 24);
+            this.cs_Bed_Type.Size = new System.Drawing.Size(166, 24);
             this.cs_Bed_Type.TabIndex = 36;
             this.cs_Bed_Type.SelectedIndexChanged += new System.EventHandler(this.cs_Bed_Type_SelectedIndexChanged);
             this.cs_Bed_Type.Leave += new System.EventHandler(this.cs_Bed_Type_Leave);
@@ -2293,7 +2294,7 @@ namespace blank
             this.e_Bed_Thickness.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.e_Bed_Thickness.Location = new System.Drawing.Point(205, 1711);
             this.e_Bed_Thickness.Name = "e_Bed_Thickness";
-            this.e_Bed_Thickness.Size = new System.Drawing.Size(107, 22);
+            this.e_Bed_Thickness.Size = new System.Drawing.Size(106, 22);
             this.e_Bed_Thickness.TabIndex = 37;
             this.e_Bed_Thickness.DoubleClick += new System.EventHandler(this.e_Bed_Thickness_DoubleClick);
             this.e_Bed_Thickness.Leave += new System.EventHandler(this.e_Bed_Thickness_Leave);
@@ -2307,7 +2308,7 @@ namespace blank
             "см",
             "м",
             "км"});
-            this.cbBedThicknessU.Location = new System.Drawing.Point(318, 1711);
+            this.cbBedThicknessU.Location = new System.Drawing.Point(317, 1711);
             this.cbBedThicknessU.Name = "cbBedThicknessU";
             this.cbBedThicknessU.Size = new System.Drawing.Size(54, 26);
             this.cbBedThicknessU.TabIndex = 43;
@@ -2331,7 +2332,7 @@ namespace blank
             "Высокий (более 200 м3/м3)"});
             this.cbGasFactor.Location = new System.Drawing.Point(205, 1743);
             this.cbGasFactor.Name = "cbGasFactor";
-            this.cbGasFactor.Size = new System.Drawing.Size(167, 26);
+            this.cbGasFactor.Size = new System.Drawing.Size(166, 26);
             this.cbGasFactor.TabIndex = 94;
             this.cbGasFactor.Text = "Низкий (менее 200 м3/м3)";
             // 
@@ -2374,7 +2375,7 @@ namespace blank
             this.tbServiceCompany.Dock = System.Windows.Forms.DockStyle.Top;
             this.tbServiceCompany.Location = new System.Drawing.Point(205, 87);
             this.tbServiceCompany.Name = "tbServiceCompany";
-            this.tbServiceCompany.Size = new System.Drawing.Size(167, 26);
+            this.tbServiceCompany.Size = new System.Drawing.Size(166, 26);
             this.tbServiceCompany.TabIndex = 105;
             // 
             // tbBrigade
@@ -2383,7 +2384,7 @@ namespace blank
             this.tbBrigade.Dock = System.Windows.Forms.DockStyle.Top;
             this.tbBrigade.Location = new System.Drawing.Point(205, 119);
             this.tbBrigade.Name = "tbBrigade";
-            this.tbBrigade.Size = new System.Drawing.Size(167, 26);
+            this.tbBrigade.Size = new System.Drawing.Size(166, 26);
             this.tbBrigade.TabIndex = 106;
             // 
             // tbMaster
@@ -2392,7 +2393,7 @@ namespace blank
             this.tbMaster.Dock = System.Windows.Forms.DockStyle.Top;
             this.tbMaster.Location = new System.Drawing.Point(205, 151);
             this.tbMaster.Name = "tbMaster";
-            this.tbMaster.Size = new System.Drawing.Size(167, 26);
+            this.tbMaster.Size = new System.Drawing.Size(166, 26);
             this.tbMaster.TabIndex = 107;
             // 
             // lbCirculationHolePresent
@@ -2413,7 +2414,7 @@ namespace blank
             this.cbCirculationHolePresent.Dock = System.Windows.Forms.DockStyle.Top;
             this.cbCirculationHolePresent.Location = new System.Drawing.Point(205, 761);
             this.cbCirculationHolePresent.Name = "cbCirculationHolePresent";
-            this.cbCirculationHolePresent.Size = new System.Drawing.Size(167, 22);
+            this.cbCirculationHolePresent.Size = new System.Drawing.Size(166, 22);
             this.cbCirculationHolePresent.TabIndex = 109;
             this.cbCirculationHolePresent.Text = "присутствует";
             this.cbCirculationHolePresent.UseVisualStyleBackColor = true;

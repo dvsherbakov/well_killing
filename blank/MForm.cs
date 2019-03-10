@@ -2179,6 +2179,11 @@ namespace blank
         {
 
         }
+
+        private void lbBedType_Click(object sender, EventArgs e)
+        {
+            //ToDo add form change of bed type
+        }
     }//End of MForm
 
    
