@@ -805,7 +805,7 @@ namespace blank
             foreach (var nx in resStringList.Select(x => x.Replace('.', ',')))
             {
                 double td;
-                if (double.TryParse(nx, out td))
+                if (double.TryParse(nx.Replace('.', ','), out td))
                     resList.Add(td);
             }
             return resList;
@@ -1505,7 +1505,7 @@ namespace blank
         private void cbRoSel_SelectedIndexChanged(object sender, EventArgs e)
         {
             float ro;
-            if (!float.TryParse(cbRoSel.Text, out ro)) return;
+            if (!float.TryParse(cbRoSel.Text.Replace('.', ','), out ro)) return;
             var ls = _cat.StaffPropsList.Where(x =>Math.Abs(x.Ro - ro) < 0.001);
             lvRo.Columns.Clear();
             lvRo.Items.Clear();
@@ -1675,7 +1675,7 @@ namespace blank
         private static double GetViscosity(string vis, int unit)
         {
             double res;
-            double.TryParse(vis, out res);
+            double.TryParse(vis.Replace('.', ','), out res);
             switch (unit)
             {
                 case 1:
