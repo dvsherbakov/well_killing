@@ -63,9 +63,6 @@
     <Compile Include="AdditionalForm.Designer.cs">
       <DependentUpon>AdditionalForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="commentCode.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="fmBedConf.cs">
       <SubType>Form</SubType>
     </Compile>

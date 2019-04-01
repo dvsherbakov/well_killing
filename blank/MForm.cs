@@ -22,7 +22,7 @@ namespace blank
 {
     public partial class MForm : Form
     {
-        private static ConfData _conf;
+        public static ConfData _conf;
         private Catalog _cat;
         private static List<GeometheryElement> _pipeConf;
         private static Bitmap _bmShema;
@@ -2183,8 +2183,14 @@ namespace blank
 
         private void lbBedType_Click(object sender, EventArgs e)
         {
-            //ToDo add form change of bed type
-            var fm = new fmBedConf();
+            Dictionary<string, CBedType> Dict = new Dictionary<string, CBedType>();
+            for (var i=0; i<cs_Bed_Type.Items.Count; i++)
+            {
+                var nm = cs_Bed_Type.Items[i].ToString();
+                var nn =  _conf.BedTypes.Where(x => x.Index == i).FirstOrDefault();
+                Dict.Add(nm, nn);
+            }
+            var fm = new fmBedConf(Dict);
             fm.Show();
         }
     }//End of MForm
