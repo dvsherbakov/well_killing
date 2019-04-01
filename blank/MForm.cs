@@ -492,6 +492,7 @@ namespace blank
 
         private void InitConfig()
         {//Init некоторых видимых элементов
+            if (_conf == null) return;
             var et = new EquipmentType();
             cbEquipmentType.Items.Clear();
             foreach  (var e in et.RListEquipment())
