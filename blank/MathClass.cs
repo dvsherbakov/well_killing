@@ -520,21 +520,21 @@ namespace blank
         {
             //Плотность жидкости долива
             var res = (1 + 0.01*DSafetyFactor)*(DStratumPressure/(9.80665*DUpPerforationHeight));
-            return res > 1000 ? res : 1000;
+            return res;
         }
 
         public double RJamDensity()
         {//Плотность жидкости глушения
             //(rCalc.ROd * (rCalc.S2 * rCalc.Hhw + rCalc.S1 * rCalc.Hhw + Math.PI * Math.Pow(rCalc.DinC / 2000.0, 2) * (rCalc.H - rCalc.Hhw)) - rCalc.Ro0 * Math.PI * Math.Pow(rCalc.DinC / 2000.0,2) * (rCalc.H - rCalc.Hhw)) / (rCalc.S2 * rCalc.Hhw + rCalc.S1 * rCalc.Hhw)
             var res = (RDensityPutFluid()*(RUnderPumpVol() + (ROutPipeVol() + RnktVol())) - DStratumFluidDensity*RUnderPumpVol())/(ROutPipeVol() + RnktVol());
-            return res > 1000 ? res : 1000;
+            return res;
         }
 
         public int RCiclesCount()
         {
             //Количество циклов
             // return (int)Math.Ceiling(RColumnVol()/RUnderPumpVol());
-            return (int) Math.Ceiling(DCirculationHoleHeight/DUpPerforationHeight);
+            return (int) Math.Ceiling(DCirculationHoleHeight/DUpPerforationHeight) + 1;
         }
         public int RNktInnigStep()
         {//Число ходов насоса, прокачка НКТ
