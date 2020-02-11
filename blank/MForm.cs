@@ -107,51 +107,66 @@ namespace blank
         {
             var stepId = _step + pbPlan.EquipmentID*100;
 
-            if ((stepId == 0) || (stepId == 100) || (stepId == 200) || (stepId == 300) || (stepId == 400) ||
-                (stepId == 500))
+            switch (stepId)
             {
-                pbPlan.CurrentLine = 1;
-                tlpAlg.Controls.Add(new Label {Text = @"Актуальное пластовое давление?", AutoSize = true}, 0, 1);
-                pbPlan.rbActualPressureY = new RadioButton{Text =@"Да"};
-                pbPlan.rbActualPressureN = new RadioButton{Text = @"Нет"};
-                //pbPlan.cbActualPressure = new CheckBox {Text = "", AutoSize = true};
-                var pn = new FlowLayoutPanel{AutoSize = true};
-                pn.Controls.Add(pbPlan.rbActualPressureY);
-                pn.Controls.Add(pbPlan.rbActualPressureN);
-                tlpAlg.Controls.Add(pn, 1, 1);
-                //tlpAlg.Controls.Add(pbPlan.rbActualPressureN, 2, 1);
-                _step++;
-                return;
-            }
-            if ((stepId == 1) || (stepId == 101) || (stepId == 201) || (stepId == 301) || (stepId == 401) ||
-                (stepId == 501))
-            {
-                if (!pbPlan.rbActualPressureY.Checked && !pbPlan.rbActualPressureN.Checked) return;
-                pbPlan.rbActualPressureY.Enabled = false;
-                pbPlan.rbActualPressureN.Enabled = false;
-                //pbPlan.cbActualPressure.Enabled = false;
-                if (pbPlan.rbActualPressureY.Checked)
+                case 0:
+                case 100:
+                case 200:
+                case 300:
+                case 400:
+                case 500:
                 {
-                    _step = 10;
-                    stepId = _step + pbPlan.EquipmentID*100;
-                }
-                else
-                {
-                    pbPlan.CurrentLine++;
-                    tlpAlg.Controls.Add(new Label {Text = @"Избыточное давление на устье", AutoSize = true}, 0,
-                        pbPlan.CurrentLine);
-                    pbPlan.rbExcessPressureY = new RadioButton{Text = @"Да"};
-                    pbPlan.rbExcessPressureN = new RadioButton { Text = @"Нет" };
-                    var pn = new FlowLayoutPanel{AutoSize=true};
-                    
-                    //pbPlan.cbExcessPressure = new CheckBox {Text = "", AutoSize = true};
-                    pn.Controls.Add(pbPlan.rbExcessPressureY);
-                    pn.Controls.Add(pbPlan.rbExcessPressureN);
-                    tlpAlg.Controls.Add(pn, 1, pbPlan.CurrentLine);
+                    pbPlan.CurrentLine = 1;
+                    tlpAlg.Controls.Add(new Label {Text = @"Актуальное пластовое давление?", AutoSize = true}, 0, 1);
+                    pbPlan.rbActualPressureY = new RadioButton{Text =@"Да"};
+                    pbPlan.rbActualPressureN = new RadioButton{Text = @"Нет"};
+                    //pbPlan.cbActualPressure = new CheckBox {Text = "", AutoSize = true};
+                    var pn = new FlowLayoutPanel{AutoSize = true};
+                    pn.Controls.Add(pbPlan.rbActualPressureY);
+                    pn.Controls.Add(pbPlan.rbActualPressureN);
+                    tlpAlg.Controls.Add(pn, 1, 1);
+                    //tlpAlg.Controls.Add(pbPlan.rbActualPressureN, 2, 1);
                     _step++;
                     return;
                 }
+
+                case 1:
+                case 101:
+                case 201:
+                case 301:
+                case 401:
+                case 501:
+                {
+                    if (!pbPlan.rbActualPressureY.Checked && !pbPlan.rbActualPressureN.Checked) return;
+                    pbPlan.rbActualPressureY.Enabled = false;
+                    pbPlan.rbActualPressureN.Enabled = false;
+                    //pbPlan.cbActualPressure.Enabled = false;
+                    if (pbPlan.rbActualPressureY.Checked)
+                    {
+                        _step = 10;
+                        stepId = _step + pbPlan.EquipmentID*100;
+                    }
+                    else
+                    {
+                        pbPlan.CurrentLine++;
+                        tlpAlg.Controls.Add(new Label {Text = @"Избыточное давление на устье", AutoSize = true}, 0,
+                            pbPlan.CurrentLine);
+                        pbPlan.rbExcessPressureY = new RadioButton{Text = @"Да"};
+                        pbPlan.rbExcessPressureN = new RadioButton { Text = @"Нет" };
+                        var pn = new FlowLayoutPanel{AutoSize=true};
+                    
+                        //pbPlan.cbExcessPressure = new CheckBox {Text = "", AutoSize = true};
+                        pn.Controls.Add(pbPlan.rbExcessPressureY);
+                        pn.Controls.Add(pbPlan.rbExcessPressureN);
+                        tlpAlg.Controls.Add(pn, 1, pbPlan.CurrentLine);
+                        _step++;
+                        return;
+                    }
+
+                    break;
+                }
             }
+
             if ((stepId == 2) || (stepId == 102) || (stepId == 202) || (stepId == 302) || (stepId == 402) ||
                 (stepId == 502))
             {
